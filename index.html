@@ -33,7 +33,7 @@
         <div class="section-2">                  
             <h2>Enquire</h2>
                 <p>Contact me with a few details and I will reply so that you can secure my services.</p>
-<form method="POST" name="contact" data-netlify="true">
+<form method="POST" name="contact" data-netlify-recaptcha="true" data-netlify="true">
 
     <div class="form-group">
     <label for="name">Name: </label><br>
@@ -64,6 +64,7 @@
 <option value="consultation">Family or One to One Consultation</option>
   </select>
     </div>
+     <div data-netlify-recaptcha="true"></div>        
     <br>
   <button type="submit" class="btn btn-primary">Submit</button>
     </form>
