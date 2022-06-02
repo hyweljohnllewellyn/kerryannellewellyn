@@ -23,9 +23,7 @@ a{
     color: #7A7C80;
     text-decoration: none;
 }
-a:hover {
-  color: #0754ed;
-}
+
 /* section 1 */
 .section-1{
     padding-top: 5vh;
@@ -80,7 +78,7 @@ a:hover {
 }
 
 .section-1 a:hover{
-    color: #fff;
+    color: #0754ed;
     cursor: pointer;
     transition: 0.3s;
 }
